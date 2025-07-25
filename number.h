@@ -1,4 +1,5 @@
-
+// defines the number class before implementation
+#pragma once
 
 class Number {
     public:

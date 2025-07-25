@@ -1,3 +1,5 @@
+// defines the number object and what is a valid number
+
 #include "number.h"
 #include <iostream>
 

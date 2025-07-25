@@ -1,4 +1,5 @@
-
+// defines the driver class before implementation
+#pragma once
 #include "number.h"
 #include <vector>
 
@@ -12,7 +13,10 @@
             void removeNumber(int idx);
             void generateRandom();
             std::vector<Number> getNumbers();
-            int mean();
-            int stdv();
+            void printNumbers();
+            double mean();
+            double stdv();
             int range();
+            int median();
+            int mode();
     };
